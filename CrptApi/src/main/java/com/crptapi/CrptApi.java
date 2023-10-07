@@ -71,6 +71,38 @@ public class CrptApi {
 
         public Document() {
         }
+
+        public String getParticipantInn() {
+            return participantInn;
+        }
+
+        public void setParticipantInn(String participantInn) {
+            this.participantInn = participantInn;
+        }
+
+        public String getDocId() {
+            return docId;
+        }
+
+        public void setDocId(String docId) {
+            this.docId = docId;
+        }
+
+        public String getDocStatus() {
+            return docStatus;
+        }
+
+        public void setDocStatus(String docStatus) {
+            this.docStatus = docStatus;
+        }
+
+        public String getUitCode() {
+            return uitCode;
+        }
+
+        public void setUitCode(String uitCode) {
+            this.uitCode = uitCode;
+        }
     }
 
     // Для теста
